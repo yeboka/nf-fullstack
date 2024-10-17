@@ -1,0 +1,183 @@
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50px;
+    
+}
+
+.div1 {
+    background-color: red;
+    height: 100%;
+}
+
+.div2 {
+    background-color: blue;
+    height: 100%;
+}
+
+h5 {
+    margin-top: 30px;
+}
+.grid2 {
+    display: grid;
+    grid-template-columns: 13fr 1fr;
+    height: 50px;
+    
+}
+
+.div3 {
+    background-color: green;
+    height: 100%;
+}
+
+.div4 {
+    background-color: blue;
+    height: 100%;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 1fr 12fr 1fr;
+    height: 50px;
+   
+}
+
+.div5 {
+    background-color: red;
+    height: 100%;
+}
+
+.div6 {
+    background-color: green;
+    height: 100%;
+}
+.div7 {
+    background-color: blue;
+    height: 100%;
+}
+.flexbox4 {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around
+    align-items: center;
+    
+    height: 50px;
+}
+
+.div8 {
+    background-color: green;
+    height: 100%;
+    width: 1690px;
+}
+
+.div9 {
+    background-color: blue;
+    height: 100%;
+    width: 120px;
+}
+
+.grid5 {
+    display: grid;
+    grid-template-columns: 100% 50px;
+    height: 50px;
+    
+    position: relative; 
+}
+
+.div10 {
+    background-color: green;
+    height: 100%;
+}
+
+.div11 {
+    background-color: red;
+    height: 75%; 
+    width: 3%;  
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.grid6 {
+    display: grid;
+    grid-template-columns: 100% 50px;
+    height: 50px;
+    
+    position: relative; 
+}
+
+.div12 {
+    background-color: red;
+    height: 100%;
+}
+
+.div13 {
+    background-color: blue;
+    height: 100%; 
+    width: 5%;  
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+}
+.grid7 {
+    display: grid;
+    grid-template-columns: 70px 1600px 100px;
+    height: 50px;
+    position: relative;
+}
+.div14 {
+    background-color: red;
+    height: 100%;
+}
+.div15 {
+    background-color: blue;
+    height: 100%;
+      /* Ширина красного блока */
+    
+    
+}
+
+.div16 {
+    background-color: green;
+    height: 25%; 
+    width: 1520px; 
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-45%, -50%); 
+}
+
+.grid8 {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr 4fr 1fr 4fr 1fr 4fr 1fr;
+    height: 50px;
+    
+}
+
+.div17, .div19, .div21, .div23, .div25  {
+    background-color: #ffe600d6;
+    height: 100%;
+}
+
+.div18 , .div20, .div22, .div24 {
+    background-color: green;
+    height: 100%;
+}
+.grid9 {
+    display: grid;
+    grid-template-columns:  10fr 1fr 10fr 1fr 10fr 1fr 10fr 1fr 10fr;
+    height: 50px;
+    
+}
+
+.div26, .div28, .div30, .div32, .div34  {
+    background-color: #ffe600d6;
+    height: 100%;
+}
+
+.div27 , .div29, .div31, .div33 {
+    background-color: green;
+    height: 100%;
+}

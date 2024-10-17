@@ -1,0 +1,30 @@
+Даны данные:
+
+const cName = "S. Kalshabekov";
+const cAddress = "Almaty";
+
+const pickle = {
+    id: 1,
+    price: 500,
+    name: "pickle",
+    type: "vegetable",
+    eatable: true,
+    amount: 4,
+};
+
+const apple = {
+    id: 2,
+    price: 1250,
+    name: "apple",
+    type: "fruit",
+    eatable: true,
+    amount: 1,
+    left: 30,
+};
+
+Tasks 1:
+Вывести в консоль следующий текст используя "шаблонные строки" или бэктики:
+
+- New Order from S. Kalshabekov, purchased 4 vegs and 1 fruit. Total price: 3250, Destination address: Almaty
+
+
