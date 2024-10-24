@@ -1,0 +1,31 @@
+Aal, Sal, Dal и Terius Crusius Mладший хотят сорвать куш!
+Для этого есть четыре плана:
+
+planA.js
+Создать функцию 'createPlan' которая после 5 секунд будет возвращать промис с двумя методами `.then`
+Первый метод должен вернуть в консоль текст: "План придуман, полетели!"
+Второй метод должен переписать глобальную переменную `window.plans.planA=true;`
+
+
+planB.js
+Создать функцию `placeABomb` которая должна взорваться через 2 секунды с текстом "BANG!"
+Взрыв должен быть в `reject`
+Метод `catch` должен переписать глобальную переменную `window.plans.planB=true;`
+
+planC.js
+Создать функцию `leaveFast`, которая
+после двух секунд должна вернуть в resolve "leave the bank in 2 seconds"
+и после 4 секунд должна вернуть в resolve "close the road in 4 seconds"
+Если два условия выполнены вывести в консоль "we almost did it!" и 
+переписать глобальную переменную `window.plans.planC=true;`
+
+planD.js
+Создать переменную `flashLightsInterval`
+Создать 3 функции `changeColor`, `flashText`, `stopTextColor`
+`changeColor` должна реагировать на нажатие кнопки `#start`
+Также, должна создать интервал к flashLightsInterval и каждую секунду вызывать 
+коллбэк `flashText`
+`flashText` должна менять классы класса ".police" cо ".stop" на ".go" и обратно,
+периодичностью в 1 секунду
+`stopTextColor` должна реагировать на нажатие кнопки `#start`
+также, должна очистить интервал и переписать глобальную переменную `window.plans.planD=true;`

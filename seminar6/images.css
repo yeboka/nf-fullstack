@@ -1,0 +1,19 @@
+.img_container {
+    display: grid !important;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.robbers{
+    width:100px;
+    height:160px;
+    border-radius: 10%;
+}
+
+.go {
+    color: blue;
+  }
+  .stop {
+    color: red;
+  }
