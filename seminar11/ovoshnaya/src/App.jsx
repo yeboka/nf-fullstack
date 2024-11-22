@@ -1,6 +1,9 @@
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Showcase from "./components/Showcase";
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+
 function App() {
   return (
     <div

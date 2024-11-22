@@ -1,9 +1,12 @@
 import React from 'react'
-import '../../style.css'
+import {bg} from './styleFooter.module.css'
 
 export default function Footer() {
+
+  console.log("footer class bg: ", bg);
+
   return (
-    <div>
+    <div className={bg}>
         <hr />
         Footer
         </div>
