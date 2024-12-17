@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.App {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.switcher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.theme_text {
+    font-size: 18px;
+}
+
+.theme_btn {
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 5px;
+
+}
+
+.lightText {
+    color: beige;
+}
+
+.darkText {
+    color: #333;
+}
+
+.light {
+    background-color: beige;
+}
+
+.dark {
+    background-color: #333;
+}
